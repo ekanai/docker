@@ -1,0 +1,2 @@
+docker run -p 32768:22 -d --name ansible ekanai/ansible
+docker cp $CONTAINER_ID:/root/.ssh/id_rsa ./
