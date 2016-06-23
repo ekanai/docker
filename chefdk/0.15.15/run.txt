@@ -1,0 +1,2 @@
+docker run -p 32769:22 -d --name chefdk ekanai/chefdk-0.15.15
+docker cp $CONTAINER_ID:/root/.ssh/id_rsa ./
